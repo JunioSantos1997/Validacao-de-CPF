@@ -1,12 +1,17 @@
 
-// 705.484.450-52 070.987.720-03 
+// CPF PARA TESTE: 705.484.450-52 070.987.720-03 
 /* 
+
+Cálculo para digitar gerar o primeiro dígito:
+
 7x Ox 5x 4x 8x 4x 4x 5x 0x
 10 9  8  7  6  5  4  3  2
 70 0  40 28 48 20 16 15 0 = 237
 
 11 - (237 % 11) = 5 (Primeiro dígito)
 Se o número digito for maior que 9, consideramos 0.
+
+Cálculo para digitar gerar o segundo dígito:
 
 7x Ox 5x 4x 8x 4x 4x 5x 0x 5x
 11 10 9  8  7  6  5  4  3  2
